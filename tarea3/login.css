@@ -1,0 +1,58 @@
+body,html{
+    height: 100%;
+    background: url(../tarea2/imag/ima1.jpg)
+   
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: 4%;
+    color: rgb(69, 189, 105);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center 
+
+}
+.form-box{
+    width: 400px;
+    height: 60;
+    background: #d64f93;
+    text-align: center;
+}
+.form-title{
+    color: rgb(78, 50, 143);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{  
+    border:0;
+    background:none;
+    display:block;
+    margin:15px auto;
+    padding:19px 17px;
+    text-align:center;
+    border:2px solid #750b8377;
+    width: 200px;
+    outline: #2f9ec0;
+    color: rgb(74, 74, 212);
+    border-radius: 24px;
+    transform: 0,25s;
+}
+.form-box input[type="text"]:focus,
+.form-box input[type="pasword"]:focus{
+    width: 200px;
+    border-color:rgb(35, 23, 141) ;
+}
+.form-box button[type="submit"]{
+    border:0;
+    background: #bec95f;
+    cursor:pointer;
+    border: 2px solid;
+    
+
+}
